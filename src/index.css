@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.typing-text {
+  @apply text-2xl font-mono whitespace-nowrap overflow-hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.typing-char {
+  animation: typing 2s steps(1, end) infinite;
+}
+
+@keyframes typing {
+  to {
+    width: 100%; /* Reveal the entire text */
+  }
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+}
+
+.waving {
+  animation: wave 2s infinite;
+}
+
+.button {
+  @apply flex items-center p-2 bg-white rounded-lg hover:bg-slate-300;
+}
+
+.screen-center {
+  @apply min-h-screen bg-slate-100 flex justify-center items-center flex-col;
+}
+
+.page-content {
+  @apply flex items-center justify-center flex-col mt-10 w-11/12 md:w-11/12 lg:w-10/12 max-w-[65rem] lg:flex-row;
+}
+
+.title {
+  @apply font-bold text-3xl lg:text-6xl;
+}
+
+.sub-title {
+  @apply md:text-xl lg:text-2xl;
+}
+
+.logo {
+  @apply rounded-full bg-gradient-to-b from-blue-700 to-orange-500 shadow-lg shadow-slate-500;
+}
+
+.project {
+  @apply w-8/12 md:w-1/3 lg:w-1/3 flex min-h-[23rem] flex-col justify-between items-center bg-slate-200 rounded-md p-4 shadow-md;
+}
+
+.project-img {
+  @apply size-[5rem] rounded-lg shadow-inner;
 }
