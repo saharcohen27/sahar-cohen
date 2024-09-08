@@ -1,3 +1,6 @@
+import URLsMetaDataLogo from "../assets/MetadataFetcherLogo.png";
+import SaharCohenLogo from "../assets/logo512.png";
+
 export const FOOTER_ITEMS = [
   {
     title: "Sahar Cohen",
@@ -62,7 +65,7 @@ export const BUTTONS = [
 
 export const PROJECTS = [
   {
-    bg: "../logo512.png",
+    bg: SaharCohenLogo,
     title: "Sahar Cohen",
     desc: "A personal website built with TypeScript and React.js, featuring a portfolio of my projects, contact information, and illustrative examples.",
     buttons: [
@@ -79,7 +82,7 @@ export const PROJECTS = [
   {
     bg: "https://play-lh.googleusercontent.com/lYct05jtKtKomCRbp8ejICumrzv7g87zs88jrWPhI1UdS-dur_JLL2dJUxuF_JvXDoDZ=w240-h480-rw",
     title: "Spyfall",
-    desc: "This React-based application provides a dynamic and interactive platform for playing the popular social deduction game, Spyfall. By leveraging Gemini AI, the app generates unique and engaging locations for each round, enhancing the gameplay experience.",
+    desc: "This React-based application provides an interactive platform for playing the popular social game, Spyfall. By leveraging Gemini AI, the app generates unique and engaging locations for each round.",
     buttons: [
       {
         href: "https://github.com/saharcohen27/spyfall",
@@ -105,9 +108,9 @@ export const PROJECTS = [
     ],
   },
   {
-    bg: "../MetadataFetcherLogo.png",
+    bg: URLsMetaDataLogo,
     title: "URL's Fetcher",
-    desc: "This project aims to create a web application that efficiently retrieves and displays metadata for a given set of URLs. The application have a user-friendly frontend built with JavaScript and React, the backend is powered by Node.js and Express, handling the URL processing and data retrieval.",
+    desc: "Efficiently retrieves and displays metadata for a given set of URLs. The application have a user-friendly frontend built with JavaScript and React, the backend is powered by Node.js and Express, handling the URL processing and data retrieval.",
     buttons: [
       {
         href: "https://github.com/saharcohen27/urls-metadata-fetcher",
