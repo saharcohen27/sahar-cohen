@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sahar-cohen/static/css/main.4fdb3e2f.css",
+    "main.js": "/sahar-cohen/static/js/main.fb792e59.js",
+    "static/js/453.419a5d54.chunk.js": "/sahar-cohen/static/js/453.419a5d54.chunk.js",
+    "static/media/logo512.png": "/sahar-cohen/static/media/logo512.b69ea87159e3a0f08f47.png",
+    "static/media/MetadataFetcherLogo.png": "/sahar-cohen/static/media/MetadataFetcherLogo.77bd15254c27d54481fc.png",
+    "index.html": "/sahar-cohen/index.html",
+    "main.4fdb3e2f.css.map": "/sahar-cohen/static/css/main.4fdb3e2f.css.map",
+    "main.fb792e59.js.map": "/sahar-cohen/static/js/main.fb792e59.js.map",
+    "453.419a5d54.chunk.js.map": "/sahar-cohen/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fdb3e2f.css",
+    "static/js/main.fb792e59.js"
+  ]
+}
