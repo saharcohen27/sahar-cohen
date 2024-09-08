@@ -5,7 +5,7 @@ export type IconType = {
 
 export interface ButtonType {
   icon: IconType;
-  href: string;
+  href?: string;
   title?: string;
 }
 
@@ -14,6 +14,7 @@ export interface ProjectProps {
   title: string;
   desc: string;
   buttons: ButtonType[];
+  stack: ButtonType[];
 }
 
 export interface FooterItemProps {

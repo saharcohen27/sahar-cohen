@@ -6,7 +6,7 @@ const FooterItem: React.FC<FooterItemProps> = ({ title, icon, link }) => {
   return (
     <li
       key={title}
-      className="flex items-center no-underline hover:bg-sky-700 p-2 rounded-sm"
+      className="flex items-center no-underline hover:bg-sky-700 transition p-2 rounded-sm"
     >
       <Icon icon={icon} />
       <div className="ml-2">

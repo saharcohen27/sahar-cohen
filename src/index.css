@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  @apply font-default;
+}
+
 .typing-text {
   @apply text-2xl font-mono whitespace-nowrap overflow-hidden;
 }
@@ -31,7 +35,7 @@
 }
 
 .button {
-  @apply flex items-center p-2 bg-white rounded-lg hover:bg-slate-300;
+  @apply flex items-center p-2 bg-white rounded-sm hover:bg-slate-500 hover:text-white transition;
 }
 
 .screen-center {
@@ -55,7 +59,7 @@
 }
 
 .project {
-  @apply w-11/12 md:w-1/3 lg:w-1/3 flex min-h-[23rem] flex-col justify-between items-center bg-slate-200 rounded-md p-4 shadow-md;
+  @apply w-11/12 md:w-1/3 lg:w-1/3 flex size-[23rem] flex-col justify-between items-center py-4 shadow-md px-8 rounded-lg overflow-hidden text-center relative bg-slate-300;
 }
 
 .project-img {

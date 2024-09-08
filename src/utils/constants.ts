@@ -1,6 +1,3 @@
-import URLsMetaDataLogo from "../assets/MetadataFetcherLogo.png";
-import SaharCohenLogo from "../assets/logo512.png";
-
 export const FOOTER_ITEMS = [
   {
     title: "Sahar Cohen",
@@ -65,9 +62,23 @@ export const BUTTONS = [
 
 export const PROJECTS = [
   {
-    bg: SaharCohenLogo,
+    bg: "sahar-cohen",
     title: "Sahar Cohen",
     desc: "A personal website built with TypeScript and React.js, featuring a portfolio of my projects, contact information, and illustrative examples.",
+    stack: [
+      {
+        icon: {
+          iconName: "ReactIcon",
+          fontSize: "small",
+        },
+      },
+      {
+        icon: {
+          iconName: "TypeScriptIcon",
+          fontSize: "small",
+        },
+      },
+    ],
     buttons: [
       {
         href: "https://github.com/saharcohen27/sahar-cohen",
@@ -80,9 +91,29 @@ export const PROJECTS = [
     ],
   },
   {
-    bg: "https://play-lh.googleusercontent.com/lYct05jtKtKomCRbp8ejICumrzv7g87zs88jrWPhI1UdS-dur_JLL2dJUxuF_JvXDoDZ=w240-h480-rw",
+    bg: "the-agent",
     title: "Spyfall",
     desc: "This React-based application provides an interactive platform for playing the popular social game, Spyfall. By leveraging Gemini AI, the app generates unique and engaging locations for each round.",
+    stack: [
+      {
+        icon: {
+          iconName: "ReactIcon",
+          fontSize: "small",
+        },
+      },
+      {
+        icon: {
+          iconName: "JavaScriptIcon",
+          fontSize: "small",
+        },
+      },
+      {
+        icon: {
+          iconName: "GeminiIcon",
+          fontSize: "small",
+        },
+      },
+    ],
     buttons: [
       {
         href: "https://github.com/saharcohen27/spyfall",
@@ -98,19 +129,38 @@ export const PROJECTS = [
           fontSize: "small",
         },
       },
+    ],
+  },
+  {
+    bg: "metadata-fetcher",
+    title: "URL's Fetcher",
+    desc: "The application have a user-friendly frontend built with JavaScript and React, the backend is powered by Node.js and Express, handling the URL processing and data retrieval.",
+    stack: [
       {
-        title: "3 Days",
         icon: {
-          iconName: "AccessTimeIcon",
+          iconName: "ReactIcon",
+          fontSize: "small",
+        },
+      },
+      {
+        icon: {
+          iconName: "ExpressIcon",
+          fontSize: "small",
+        },
+      },
+      {
+        icon: {
+          iconName: "NodeIcon",
+          fontSize: "small",
+        },
+      },
+      {
+        icon: {
+          iconName: "JavaScriptIcon",
           fontSize: "small",
         },
       },
     ],
-  },
-  {
-    bg: URLsMetaDataLogo,
-    title: "URL's Fetcher",
-    desc: "Efficiently retrieves and displays metadata for a given set of URLs. The application have a user-friendly frontend built with JavaScript and React, the backend is powered by Node.js and Express, handling the URL processing and data retrieval.",
     buttons: [
       {
         href: "https://github.com/saharcohen27/urls-metadata-fetcher",
@@ -123,13 +173,6 @@ export const PROJECTS = [
         href: "https://urls-metadata-fetcher-client.vercel.app/",
         icon: {
           iconName: "OpenInBrowserIcon",
-          fontSize: "small",
-        },
-      },
-      {
-        title: "1 Day",
-        icon: {
-          iconName: "AccessTimeIcon",
           fontSize: "small",
         },
       },
