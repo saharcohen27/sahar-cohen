@@ -1,8 +1,5 @@
 import React from "react";
-
-interface BannerProps {
-  children: React.ReactNode;
-}
+import { BannerProps } from "../utils/types.tsx";
 
 const Banner: React.FC<BannerProps> = ({ children }) => {
   return (

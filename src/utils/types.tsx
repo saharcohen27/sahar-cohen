@@ -1,6 +1,7 @@
 export type IconType = {
   iconName: string;
   fontSize?: string;
+  className?: string;
 };
 
 export interface ButtonType {
@@ -21,4 +22,13 @@ export interface FooterItemProps {
   title: string;
   icon: IconType;
   link?: string;
+}
+
+export interface BannerProps {
+  children: React.ReactNode;
+}
+
+export interface IconProps {
+  icon: IconType;
+  className?: string;
 }
