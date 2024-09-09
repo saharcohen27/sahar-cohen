@@ -36,6 +36,22 @@ const CustomIcons = [
     name: "GeminiIcon",
     src: "https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg",
   },
+  {
+    name: "PythonIcon",
+    src: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+  },
+  {
+    name: "HTMLIcon",
+    src: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+  },
+  {
+    name: "CSSIcon",
+    src: "https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg",
+  },
+  {
+    name: "TailwindIcon",
+    src: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+  },
 ];
 
 const GetCustomComponent: React.FC<{

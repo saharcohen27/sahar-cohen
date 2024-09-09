@@ -29,7 +29,7 @@ function TypingAnimation({ text }: TypingAnimationProps) {
 
   return (
     <div ref={typingRef} className="typing-text">
-      <span className="typing-char"></span>
+      <span className="animated-typing"></span>
     </div>
   );
 }

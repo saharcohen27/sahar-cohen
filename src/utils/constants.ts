@@ -1,3 +1,8 @@
+import SaharCohenLogo from "../assets/logo512.png";
+import URLsFetcherLogo from "../assets/MetadataFetcherLogo.png";
+import AgentLogo from "../assets/agent.png";
+import CryptoLogo from "../assets/crypto.jpg";
+
 export const FOOTER_ITEMS = [
   {
     title: "Sahar Cohen",
@@ -62,7 +67,7 @@ export const BUTTONS = [
 
 export const PROJECTS = [
   {
-    bg: "sahar-cohen",
+    bg: SaharCohenLogo,
     title: "Sahar Cohen",
     desc: "A personal website built with TypeScript and React.js, featuring a portfolio of my projects, contact information, and illustrative examples.",
     stack: [
@@ -75,6 +80,12 @@ export const PROJECTS = [
       {
         icon: {
           iconName: "TypeScriptIcon",
+          fontSize: "small",
+        },
+      },
+      {
+        icon: {
+          iconName: "TailwindIcon",
           fontSize: "small",
         },
       },
@@ -91,9 +102,9 @@ export const PROJECTS = [
     ],
   },
   {
-    bg: "the-agent",
+    bg: AgentLogo,
     title: "Spyfall",
-    desc: "This React-based application provides an interactive platform for playing the popular social game, Spyfall. By leveraging Gemini AI, the app generates unique and engaging locations for each round.",
+    desc: "Platform for playing the popular social game, Spyfall. By leveraging Gemini AI, the app generates unique locations each round.",
     stack: [
       {
         icon: {
@@ -132,9 +143,9 @@ export const PROJECTS = [
     ],
   },
   {
-    bg: "metadata-fetcher",
+    bg: URLsFetcherLogo,
     title: "URL's Fetcher",
-    desc: "The application have a user-friendly frontend built with JavaScript and React, the backend is powered by Node.js and Express, handling the URL processing and data retrieval.",
+    desc: "Fetching URLs metadata. Minimum of 3 URLs as input and displays the resulting metadata.",
     stack: [
       {
         icon: {
@@ -173,6 +184,47 @@ export const PROJECTS = [
         href: "https://urls-metadata-fetcher-client.vercel.app/",
         icon: {
           iconName: "OpenInBrowserIcon",
+          fontSize: "small",
+        },
+      },
+    ],
+  },
+  {
+    bg: CryptoLogo,
+    title: "Live Streaming",
+    desc: "For crypto traders, including APIs, interactive graphs, and a live streaming feature similar to Zoom.",
+    stack: [
+      {
+        icon: {
+          iconName: "PythonIcon",
+          fontSize: "small",
+        },
+      },
+      {
+        icon: {
+          iconName: "HTMLIcon",
+          fontSize: "small",
+        },
+      },
+      {
+        icon: {
+          iconName: "CSSIcon",
+          fontSize: "small",
+        },
+      },
+      {
+        icon: {
+          iconName: "JavaScriptIcon",
+          fontSize: "small",
+        },
+      },
+    ],
+    buttons: [
+      {
+        title: "View Source",
+        href: "https://github.com/saharcohen27/FlaskWebApp",
+        icon: {
+          iconName: "GitHubIcon",
           fontSize: "small",
         },
       },
