@@ -1,22 +1,8 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef } from "react";
 import Buttons from "./Buttons.tsx";
+import { useIsVisible } from "../hooks/index.tsx";
 import { ProjectProps } from "../utils/types";
-function useIsVisible(ref) {
-  const [isIntersecting, setIntersecting] = useState(false);
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(([entry]) => {
-      setIntersecting(entry.isIntersecting);
-    });
-
-    observer.observe(ref.current);
-    return () => {
-      observer.disconnect();
-    };
-  }, [ref]);
-
-  return isIntersecting;
-}
 const Project: React.FC<ProjectProps> = ({
   bg,
   title,
