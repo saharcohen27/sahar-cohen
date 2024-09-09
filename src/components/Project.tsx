@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import Buttons from "./Buttons.tsx";
-import { useIsVisible } from "../hooks/index.tsx";
+import { useIsVisible } from "../hooks/useIsVisible.tsx";
 import { ProjectProps } from "../utils/types";
 
 const Project: React.FC<ProjectProps> = ({
