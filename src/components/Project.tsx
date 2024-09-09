@@ -35,12 +35,10 @@ const Project: React.FC<ProjectProps> = ({
       <img className="project-img rounded-t-lg" src={bg} alt="project-logo" />
       <Buttons buttons={stack} buttonClass="flex items-center rounded-lg p-1" />
       <div className="p-5 space-y-3">
-        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white">
           {title}
         </h5>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          {desc}
-        </p>
+        <p className="mb-3 font-normal text-gray-700 text-gray-400">{desc}</p>
         <Buttons buttons={buttons} className="bottom-0 justify-center" />
       </div>
     </div>
