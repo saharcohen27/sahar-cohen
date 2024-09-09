@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1f45640.css",
-    "main.js": "/static/js/main.cf368097.js",
+    "main.css": "/static/css/main.81dfc887.css",
+    "main.js": "/static/js/main.c0dbf5d3.js",
     "static/js/453.419a5d54.chunk.js": "/static/js/453.419a5d54.chunk.js",
     "static/media/logo512.png": "/static/media/logo512.b69ea87159e3a0f08f47.png",
     "static/media/CV Sahar Cohen.pdf": "/static/media/CV Sahar Cohen.2c56e2c9560b545502c7.pdf",
     "static/media/crypto.jpg": "/static/media/crypto.bc9f861f305bf906ff7e.jpg",
     "index.html": "/index.html",
-    "main.f1f45640.css.map": "/static/css/main.f1f45640.css.map",
-    "main.cf368097.js.map": "/static/js/main.cf368097.js.map",
+    "main.81dfc887.css.map": "/static/css/main.81dfc887.css.map",
+    "main.c0dbf5d3.js.map": "/static/js/main.c0dbf5d3.js.map",
     "453.419a5d54.chunk.js.map": "/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1f45640.css",
-    "static/js/main.cf368097.js"
+    "static/css/main.81dfc887.css",
+    "static/js/main.c0dbf5d3.js"
   ]
 }
