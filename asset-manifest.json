@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/sahar-cohen/static/css/main.5e353d62.css",
-    "main.js": "/sahar-cohen/static/js/main.485b4a69.js",
-    "static/js/453.419a5d54.chunk.js": "/sahar-cohen/static/js/453.419a5d54.chunk.js",
-    "static/media/logo512.png": "/sahar-cohen/static/media/logo512.b69ea87159e3a0f08f47.png",
-    "static/media/CV Sahar Cohen.pdf": "/sahar-cohen/static/media/CV Sahar Cohen.2c56e2c9560b545502c7.pdf",
-    "static/media/crypto.jpg": "/sahar-cohen/static/media/crypto.bc9f861f305bf906ff7e.jpg",
-    "index.html": "/sahar-cohen/index.html",
-    "main.5e353d62.css.map": "/sahar-cohen/static/css/main.5e353d62.css.map",
-    "main.485b4a69.js.map": "/sahar-cohen/static/js/main.485b4a69.js.map",
-    "453.419a5d54.chunk.js.map": "/sahar-cohen/static/js/453.419a5d54.chunk.js.map"
+    "main.css": "/static/css/main.5e353d62.css",
+    "main.js": "/static/js/main.cf368097.js",
+    "static/js/453.419a5d54.chunk.js": "/static/js/453.419a5d54.chunk.js",
+    "static/media/logo512.png": "/static/media/logo512.b69ea87159e3a0f08f47.png",
+    "static/media/CV Sahar Cohen.pdf": "/static/media/CV Sahar Cohen.2c56e2c9560b545502c7.pdf",
+    "static/media/crypto.jpg": "/static/media/crypto.bc9f861f305bf906ff7e.jpg",
+    "index.html": "/index.html",
+    "main.5e353d62.css.map": "/static/css/main.5e353d62.css.map",
+    "main.cf368097.js.map": "/static/js/main.cf368097.js.map",
+    "453.419a5d54.chunk.js.map": "/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e353d62.css",
-    "static/js/main.485b4a69.js"
+    "static/js/main.cf368097.js"
   ]
 }
