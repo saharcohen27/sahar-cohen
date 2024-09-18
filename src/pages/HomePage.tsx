@@ -1,10 +1,8 @@
 import React from "react";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
-import DownloadIcon from "@mui/icons-material/Download";
 import Buttons from "../components/Buttons.tsx";
 import { BUTTONS } from "../utils/constants.ts";
 import logo from "../logo512.png";
-import resume from "../assets/CV Sahar Cohen.pdf";
 
 const HomePage = () => {
   return (
@@ -32,14 +30,6 @@ const HomePage = () => {
             the tech industry.
           </p>
           <Buttons buttons={BUTTONS} className="mt-2 md:mt-5 lg:mt-7" />
-          <a
-            href={resume}
-            download
-            className="mt-2 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
-          >
-            <DownloadIcon className="fill-current w-4 h-4 mr-2" />
-            <span>Download CV</span>
-          </a>
         </div>
         <div className="downarrow lg:invisible mag">
           <ArrowDownwardIcon fontSize="large" className="animate-bounce" />
